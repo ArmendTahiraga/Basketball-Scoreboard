@@ -1,0 +1,106 @@
+@font-face {
+	font-family: "Cursed Timer ULiL";
+	src: url("/basketball_scoreboard/CursedTimerUlil-Aznm.ttf");
+}
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1b244a;
+}
+
+button {
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: #1b244a;
+	width: 575px;
+	height: 385px;
+	border: 1px solid #9aabd8;
+	border-radius: 1rem;
+	position: relative;
+}
+
+#home {
+	margin-right: 140px;
+}
+
+.score {
+	font-family: "Cursed Timer ULiL";
+	width: 155px;
+	height: 120px;
+	background-color: #080001;
+	border-radius: 5px;
+	margin: 0 0 26px 0;
+}
+
+.points {
+	font-family: "Cursed Timer ULiL";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 90px;
+	line-height: 127px;
+	text-align: center;
+	color: #f94f6d;
+	margin: 0;
+}
+
+.title {
+	color: #eeeeee;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 68px 0 21px 0;
+	padding-left: 10px;
+}
+
+.title-guest {
+	padding-left: 5px;
+}
+
+.buttons {
+	width: 155px;
+	height: 45px;
+	padding-left: 5px;
+}
+.add {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #9aabd8;
+	color: #9aabd8;
+	background-color: transparent;
+}
+
+.add1-home,
+.add2-home,
+.add1-guest,
+.add2-guest {
+	margin: 0 10px 0 0;
+}
+
+.add3-home,
+.add3-guest {
+	margin: 0;
+}
+
+#new-game {
+	position: absolute;
+	top: 335px;
+	width: 120px;
+	height: 50px;
+	border-radius: 5px 5px 0 0;
+	border: 1px solid #9aabd8;
+	border-bottom: none;
+	color: #f94f6d;
+	background-color: transparent;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 0 0 8px red;
+}
